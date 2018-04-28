@@ -1,0 +1,53 @@
+html, body {
+  background: url('../images/original.jpeg') center center no-repeat;
+  height: 100%;
+  background-size: cover;
+}
+
+/*DIFFERENT CODE - STEP 16*/
+
+.logo {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  padding-top: 20px;
+}
+
+.logo img {
+  padding-top: 20px;
+}
+#logo-design {
+  /*background-color: white;*/
+  /*opacity: 1;*/
+}
+
+/*---INTRO---*/
+
+#intro p {
+  color: white;
+  text-align: center;
+  font-family: 'Courgette', cursive;
+  font-size: 1.8em;
+}
+
+/*---COUNTDOWN---*/
+      /*DIFFERENT CODE STEP 25*/
+#counter .countdown {
+  text-align: center;
+  color: white;
+  font-family: 'Raleway', cursive;
+  font-size: 3em;
+  margin: -15px 0 0;
+}
+
+/*---ICONS---*/
+
+#icons .twitter:hover {
+  color: #6cadde;
+  bottom: 5px;
+}
+
+#icons .facebook:hover {
+  color: #3b5998;
+  bottom: 5px;
+}
