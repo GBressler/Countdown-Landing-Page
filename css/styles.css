@@ -17,8 +17,8 @@ html, body {
   padding-top: 20px;
 }
 #logo-design {
-  /*background-color: white;*/
-  /*opacity: 1;*/
+  margin-bottom: 50px;
+  margin-top: 25px;
 }
 
 /*---INTRO---*/
@@ -42,6 +42,24 @@ html, body {
 
 /*---ICONS---*/
 
+#icons {
+  
+  text-align: center;
+  /*display: inline-block;*/
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+#icons .fab {
+  color: white;
+  margin: 5px 15px;
+  position: relative;
+  bottom: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
 #icons .twitter:hover {
   color: #6cadde;
   bottom: 5px;
@@ -49,5 +67,15 @@ html, body {
 
 #icons .facebook:hover {
   color: #3b5998;
+  bottom: 5px;
+}
+
+#icons .google:hover {
+  color: #ea4335;
+  bottom: 5px;
+}
+
+#icons .instagram:hover {
+  color: #517fa6;
   bottom: 5px;
 }
