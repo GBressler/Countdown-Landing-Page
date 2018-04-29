@@ -45,7 +45,6 @@ html, body {
 #icons {
   
   text-align: center;
-  /*display: inline-block;*/
 }
 
 .list-inline li {
@@ -79,3 +78,25 @@ html, body {
   color: #517fa6;
   bottom: 5px;
 }
+
+/*---Sign UP!---*/
+
+
+#signup {
+  text-align: center;
+}
+
+#signup .form-inline {
+  display: inline-block;
+}
+
+#signup .btn {
+  background-color: rgba(161,186,226,0.5);
+  color: white;
+}
+
+#signup .btn:hover {
+  background-color: rgba(37,165,82,1);
+}
+
+
